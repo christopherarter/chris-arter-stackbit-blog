@@ -25,7 +25,7 @@ Here's a quick tip on how to use an in-memory database for unit testing:
 <server name="DB_CONNECTION" value="sqlite_testing"/>
 ```
 
-**3. Clear config cache **
+**3. Clear config cache**
 
 Don't forget to clear configuration cache after we added our new SQLite connection above using `php artisan config:cache`, which will clear & re-cache your application configs.
 
