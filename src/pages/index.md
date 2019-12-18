@@ -3,8 +3,8 @@ title: Home
 sections:
   - component: HeroBlock
     content: >-
-      I'm a full-stack software engineer building cool things on the web. This
-      blog is a collection of what I've learned along the way.
+      I'm a full-stack web application developer building cool things on the
+      web. This blog is a collection of what I've learned along the way.
     section_id: hero
     title: 'Hi, I''m Chris Arter.'
     type: heroblock
