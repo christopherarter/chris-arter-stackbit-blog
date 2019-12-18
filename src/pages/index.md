@@ -9,6 +9,9 @@ sections:
     title: 'Hi, I''m Chris Arter.'
     type: heroblock
   - actions:
+      - label: Download Resume
+        url: >-
+          https://arter-personal-public.s3.amazonaws.com/Chris+Arter+Resume+2020.pdf
       - label: Contact Me
         url: /contact
     component: ContentBlock
