@@ -8,6 +8,8 @@ menus:
     weight: 4
 template: page
 ---
+![Chris Arter wearing a jacket on a hiking trail](/images/img_20200101_092140-1-.jpg)
+
 Thanks for visiting my corner of the web. This place is filled mostly with short tutorials, thoughts and opinions on tech-related topics.
 
 My name is Chris Arter, and I'm a 30-something-year-old Web Application Developer from sunny Florida. 🌴
