@@ -7,7 +7,7 @@ template: post
 ---
 When I write unit tests for APIs, I try to write tests that are as flexible and durable as possible. I try my best to avoid brittle tests that may break if some implementation in my code base should change. 
 
-Ideally, tests should not care at all about the implementation, and only care that with X input, we get Y output. Some of your endpoints may return Laravel API Resources. I've seen some devs write tests that ensure that the resource is returned compared to a given shape / array. But, we don't really care about that, do we? We may change our API Resource class, but we want our test to stay resilient. 
+Ideally, tests should not care at all about the implementation, and only care that with X input, we get Y output. Some of your endpoints may return Laravel API Resources. I've seen some developers write tests that ensure that the resource is returned compared to a given shape / array. But, we don't really care about that, do we? We may change our API Resource class, but we want our test to stay resilient. 
 
 In the example image above, we'll say we only really care that the `title` and `content` of a post is included in the API response. Other fields may change in our resource, but this test ensures that those two fields are always contained in the response. 
 
