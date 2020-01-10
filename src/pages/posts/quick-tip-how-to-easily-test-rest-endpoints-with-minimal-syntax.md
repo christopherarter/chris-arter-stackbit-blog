@@ -21,7 +21,7 @@ For now, this is passing with `assertJson()`.
 ```
 // PostTest.php
 
-        $this->assertJson([
+        $this->get('/posts')->assertJson([
             'id'        =>  $post->id,
             'title'     =>  $post->title,
             'content'   =>  $post->content;
@@ -63,7 +63,7 @@ Suddenly, our test above will break, because the data return does not match our 
 ```
 // PostTest.php
 ﻿
-        $this->assertJson([
+        $this->get('/posts')->assertJsonFragment([
             'id'        =>  $post->id,
             'title'     =>  $post->title,
             'content'   =>  $post->content;
