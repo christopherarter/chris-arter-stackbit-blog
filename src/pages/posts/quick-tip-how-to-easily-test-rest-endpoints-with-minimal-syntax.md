@@ -58,7 +58,7 @@ function toArray()
 }
 ```
 
-Suddenly, our test above will break, because the data return does not match our assertion exactly. This is where `assertJsonFragment` comes in. The same test using `assertJsonFragment` will pass test, where our previous failed. 
+**Suddenly, our test above will break, because the data return does not match our assertion exactly.** This is where `assertJsonFragment` comes in. The same test using `assertJsonFragment` will pass test, where our previous failed. 
 
 ```
 // PostTest.php
