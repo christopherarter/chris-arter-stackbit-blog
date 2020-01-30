@@ -23,7 +23,11 @@ export default class PostsBlock extends React.Component {
                   url: safePrefix(_.get(post, 'url')),
                   mainEntityOfPage: safePrefix(_.get(post, 'url')),
                   dateModified: moment(_.get(post, 'frontmatter.date')).strftime('%B %d, %Y'),
-                  publisher:'Chris Arter',
+                  publisher: {
+                    "@type": 'Person',
+                    '@context':'https://schema.org',
+                    name: 'Chris Arter'
+                  },
                   articleBody: post.html,
                   datePublished: moment(_.get(post, 'frontmatter.date')).strftime('%B %d, %Y'),
                   author: {
