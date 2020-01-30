@@ -10,7 +10,7 @@ export default class Header extends React.Component {
       <header id="masthead" className={'site-header ' + _.get(this.props, 'pageContext.site.siteMetadata.header.bg')}>
 
 <script type="application/ld+json">
-        { JSON.stringify({
+        !{ JSON.stringify({
           "@type": 'Person',
           "@context": 'https://schema.org',
           sameAs:'https://arter.dev',

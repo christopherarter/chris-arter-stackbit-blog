@@ -16,7 +16,7 @@ export default class PostsBlock extends React.Component {
                 <article key={post_idx} className="post">
 
             <script type="application/ld+json">
-                    { JSON.stringify({
+                    !{ JSON.stringify({
                       "@type": 'BlogPosting',
                       "@context": 'https://schema.org',
                       headline:_.get(post, 'frontmatter.title'),
