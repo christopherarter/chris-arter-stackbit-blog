@@ -1,6 +1,5 @@
 import React from 'react';
 import _ from 'lodash';
-import { Person } from "schema-dts";
 import { JsonLd } from "react-schemaorg";
 
 import { Link, safePrefix } from '../utils';
@@ -12,7 +11,7 @@ export default class Header extends React.Component {
       <header id="masthead" className={'site-header ' + _.get(this.props, 'pageContext.site.siteMetadata.header.bg')}>
 
 
-        <JsonLd<Person>
+        <JsonLd
     item={{
       "@context": "https://schema.org",
       "@type": "Person",
