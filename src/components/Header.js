@@ -9,18 +9,18 @@ export default class Header extends React.Component {
     return (
       <header id="masthead" className={'site-header ' + _.get(this.props, 'pageContext.site.siteMetadata.header.bg')}>
 
-        <script type="application/ld+json">
+<script type="application/ld+json">
         { JSON.stringify({
-          '@type': 'Person',
-          '@context': 'https://schema.org',
-          'sameAs':'https://arter.dev',
-          'jobTitle':'Software Engineer',
-          'gender':'Male',
-          'email':'chris@arter.dev',
-          'familyName':'Arter',
-          'givenName':'Chris',
-          'image':'https://arter.dev/images/chris-arter.jpg',
-          'url':'https://arter.dev'
+          "@type": 'Person',
+          "@context": 'https://schema.org',
+          sameAs:'https://arter.dev',
+          jobTitle:'Software Engineer',
+          gender:'Male',
+          email:'chris@arter.dev',
+          familyName:'Arter',
+          givenName:'Chris',
+          image:'https://arter.dev/images/chris-arter.jpg',
+          url:'https://arter.dev'
         })}
         </script>
 

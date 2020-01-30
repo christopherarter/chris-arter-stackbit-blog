@@ -14,6 +14,30 @@ export default class PostsBlock extends React.Component {
               <div className="post-feed">
                 {_.map(recent_posts, (post, post_idx) => (
                 <article key={post_idx} className="post">
+
+            <script type="application/ld+json">
+                    { JSON.stringify({
+                      "@type": 'BlogPosting',
+                      "@context": 'https://schema.org',
+                      headline:_.get(post, 'frontmatter.title'),
+                      image:safePrefix(_.get(post, 'frontmatter.thumb_img_path')),
+                      url:safePrefix(_.get(post, 'url')),
+                      datePublished: moment(_.get(post, 'frontmatter.date')).strftime('%B %d, %Y'),
+                      author: {
+                        "@type": 'Person',
+                        "@context": 'https://schema.org',
+                        sameAs:'https://arter.dev',
+                        jobTitle:'Software Engineer',
+                        gender:'Male',
+                        email:'chris@arter.dev',
+                        familyName:'Arter',
+                        givenName:'Chris',
+                        image:'https://arter.dev/images/chris-arter.jpg',
+                        url:'https://arter.dev'
+                      }
+                    })}
+            </script>
+                { console.log(post) }
                   <div className="post-inside">
                     {_.get(post, 'frontmatter.thumb_img_path') && 
                     <Link className="post-thumbnail" to={safePrefix(_.get(post, 'url'))}><img className="thumbnail"
