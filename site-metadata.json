@@ -5,13 +5,13 @@
   "header": {
     "title": "Chris Arter",
     "tagline": "A full-stack engineer, Dad, and explorer of life.",
-    "profile_img": "/images/chris-arter.jpg",
+    "profile_img": "/images/me.jpg",
     "bg": "dark",
     "has_nav": true,
     "has_social": true
   },
   "footer": {
-    "content": "&copy; All rights reserved.",
+    "content": "&copy; Chris Arter | All rights reserved.",
     "links": []
   }
 }
