@@ -1,7 +1,7 @@
 ---
 title: About Me
 subtitle: Who is this guy?
-img_path: ''
+img_path: /images/IMG_20181003_190630(1).jpg
 menus:
   main:
     title: About
