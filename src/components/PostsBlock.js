@@ -22,7 +22,6 @@ export default class PostsBlock extends React.Component {
                   image:safePrefix(_.get(post, 'frontmatter.thumb_img_path')),
                   url:safePrefix(_.get(post, 'url')),
                   datePublished: moment(_.get(post, 'frontmatter.date')).strftime('%B %d, %Y'),
-                  articleBody: post.html,
                   author: {
                     "@type": 'Person',
                     "@context": 'https://schema.org',
