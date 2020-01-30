@@ -21,6 +21,25 @@ export default class PostsBlock extends React.Component {
                   headline: _.get(post, 'frontmatter.title'),
                   image: safePrefix(_.get(post, 'frontmatter.thumb_img_path')),
                   url: safePrefix(_.get(post, 'url')),
+                  mainEntityOfPage: safePrefix(_.get(post, 'url')),
+                  dateModified: moment(_.get(post, 'frontmatter.date')).strftime('%B %d, %Y'),
+                  publisher:{
+                    "@type": 'Person',
+                    "@context": 'https://schema.org',
+                    sameAs: [
+                      'https://arter.dev',
+                      'https://twitter.com/ChrisArter',
+                      'https://github.com/christopherarter'
+                    ],
+                    jobTitle: 'Software Engineer',
+                    gender: 'Male',
+                    email: 'chris@arter.dev',
+                    familyName: 'Arter',
+                    givenName: 'Chris',
+                    name: 'Chris Arter',
+                    image: 'https://arter.dev/images/chris-arter.jpg',
+                    url: 'https://arter.dev'
+                  },
                   articleBody: post.html,
                   datePublished: moment(_.get(post, 'frontmatter.date')).strftime('%B %d, %Y'),
                   author: {
@@ -36,6 +55,7 @@ export default class PostsBlock extends React.Component {
                     email: 'chris@arter.dev',
                     familyName: 'Arter',
                     givenName: 'Chris',
+                    name: 'Chris Arter',
                     image: 'https://arter.dev/images/chris-arter.jpg',
                     url: 'https://arter.dev'
                   }
