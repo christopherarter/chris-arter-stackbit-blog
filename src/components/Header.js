@@ -16,7 +16,11 @@ export default class Header extends React.Component {
       "@context": "https://schema.org",
       "@type": "Person",
       name: "Chris Arter",
-      sameAs:'https://arter.dev',
+      sameAs:[
+        'https://arter.dev',
+        'https://twitter.com/ChrisArter',
+        'https://github.com/christopherarter'
+      ],
       jobTitle:'Software Engineer',
       gender:'Male',
       email:'chris@arter.dev',

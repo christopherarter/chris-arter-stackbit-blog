@@ -4,10 +4,9 @@ export default {
 
     },
 
-    getAuthorSchema(author)
-    {
+    getAuthorSchema: () => ({
 
-    },
+    }),
 
     getPageSchema(page)
     {
