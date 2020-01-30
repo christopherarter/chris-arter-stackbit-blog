@@ -1,5 +1,7 @@
 import React from 'react';
 import _ from 'lodash';
+import { Person } from "schema-dts";
+import { JsonLd } from "react-schemaorg";
 
 import { Link, safePrefix } from '../utils';
 import Social from './Social';
@@ -9,20 +11,27 @@ export default class Header extends React.Component {
     return (
       <header id="masthead" className={'site-header ' + _.get(this.props, 'pageContext.site.siteMetadata.header.bg')}>
 
-<script type="application/ld+json">
-        !{ JSON.stringify({
-          "@type": 'Person',
-          "@context": 'https://schema.org',
-          sameAs:'https://arter.dev',
-          jobTitle:'Software Engineer',
-          gender:'Male',
-          email:'chris@arter.dev',
-          familyName:'Arter',
-          givenName:'Chris',
-          image:'https://arter.dev/images/chris-arter.jpg',
-          url:'https://arter.dev'
-        })}
-        </script>
+
+        <JsonLd<Person>
+    item={{
+      "@context": "https://schema.org",
+      "@type": "Person",
+      name: "Chris Arter",
+      sameAs:'https://arter.dev',
+      jobTitle:'Software Engineer',
+      gender:'Male',
+      email:'chris@arter.dev',
+      familyName:'Arter',
+      givenName:'Chris',
+      image:'https://arter.dev/images/chris-arter.jpg',
+      url:'https://arter.dev',
+      alternateName: "Christopher Arter",
+      alumniOf: {
+        "@type": "CollegeOrUniversity",
+        name: ["Florida State College at Jacksonville"]
+      },
+      knowsAbout: ["Laravel","Node", "REST APIs"]
+    }}/>
 
         <div className="site-header-wrap">
           <div className="site-header-inside">

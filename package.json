@@ -28,8 +28,10 @@
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0",
     "react-html-parser": "^2.0.2",
+    "react-schemaorg": "^1.0.0",
     "react-script-tag": "^1.1.2",
     "rehype-react": "^3.0.2",
+    "schema-dts": "^0.5.1",
     "sprintf-js": "^1.1.2"
   }
 }
