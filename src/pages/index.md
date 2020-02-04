@@ -10,7 +10,8 @@ sections:
     type: heroblock
   - actions:
       - label: Download Resume
-        url: 'https://arter-personal-public.s3.amazonaws.com/Chris+Arter+Resume.pdf'
+        url: >-
+          https://arter-personal-public.s3.amazonaws.com/Chris+Arter+Resume+2020.pdf
     component: ContentBlock
     content: "My name is Chris Arter, and I'm a 30-something-year-old Web Application Developer from sunny Florida \U0001F334. I (mostly) build with Laravel, VueJS & NodeJS."
     section_id: about
