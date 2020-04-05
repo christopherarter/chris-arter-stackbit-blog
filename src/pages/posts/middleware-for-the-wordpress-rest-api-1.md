@@ -1,11 +1,10 @@
 ---
-title: Middleware for the WordPress REST API
-date: 2019-05-01T03:07:36.428Z
-thumb_img_path: /images/wordpress_middleware.jpg
-content_img_path: /images/wordpress_middleware.jpg
+title: Middleware for the Wordpress REST API
+date: 2019-05-25T18:28:15.497Z
+thumb_img_path: /images/wordpress-middleware-chris-arter.png
+content_img_path: /images/wordpress-middleware-chris-arter.png
 template: post
 ---
-
 When I originally began doing significant development around the Wordpress REST API, I was excited to finally get hands-on with it. 
 
 Then, it came to write "middleware". If you are unfamiliar with middleware in web development, it is simply a series of checks between the inbound request and your controller actions.
@@ -102,3 +101,4 @@ To install this middleware as a plugin, use [GitHub](https://github.com/christop
 
 To install via composer:
 `composer require christopherarter/wp-middleware`
+
