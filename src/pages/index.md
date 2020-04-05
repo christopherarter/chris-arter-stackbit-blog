@@ -3,20 +3,11 @@ title: Home
 sections:
   - component: HeroBlock
     content: >-
-      I'm a full-stack web application developer building cool things on the
-      web. This blog is a collection of what I've learned along the way.
+      My name is Chris Arter, and I'm a 30-something-year-old Web Application Developer from sunny Florida 🌴. I (mostly) build with **Laravel**, **Vue** & **Serverless Node**.
+      <p><a href="https://arter-personal-public.s3.amazonaws.com/Chris+Arter+Resume+2020.pdf" class="button">Download Resume</a></p>
     section_id: hero
     title: 'Hi, I''m Chris Arter.'
     type: heroblock
-  - actions:
-      - label: Download Resume
-        url: >-
-          https://arter-personal-public.s3.amazonaws.com/Chris+Arter+Resume+2020.pdf
-    component: ContentBlock
-    content: "My name is Chris Arter, and I'm a 30-something-year-old Web Application Developer from sunny Florida \U0001F334. I (mostly) build with Laravel, VueJS & NodeJS."
-    section_id: about
-    title: About
-    type: contentblock
   - actions:
       - label: View Blog
         url: blog/index.html
