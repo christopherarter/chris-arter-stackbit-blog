@@ -10,7 +10,7 @@ Almost all of the packages I write are born out of my own necessity for them, an
 
 **TL;DR**
 
-[Laravel Resourceable]("https://github.com/christopherarter/laravel-resourceable") is a package that allows you to retrieve a model's API resource by naming convention. e.g. `$user->toResourceArray()` would return the array representation of it's json shape from `UserResource` API Resource class. This is useful for writing accurate HTTP response tests.
+<a href="https://github.com/christopherarter/laravel-resourceable">Laravel Resourceable</a> is a package that allows you to retrieve a model's API resource by naming convention. e.g. `$user->toResourceArray()` would return the array representation of it's json shape from `UserResource` API Resource class. This is useful for writing accurate HTTP response tests.
 
 ### What are Laravel API Resources?
 
