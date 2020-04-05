@@ -19,7 +19,7 @@ export default class PostsBlock extends React.Component {
                   "@type": 'BlogPosting',
                   "@context": 'https://schema.org',
                   headline: _.get(post, 'frontmatter.title'),
-                  image: safePrefix(_.get(post, 'frontmatter.thumb_img_path')),
+                  image: `htts://arter.dev${_.get(post, 'frontmatter.thumb_img_path')}`,
                   url: safePrefix(_.get(post, 'url')),
                   mainEntityOfPage: safePrefix(_.get(post, 'url')),
                   dateModified: moment(_.get(post, 'frontmatter.date')).strftime('%B %d, %Y'),
