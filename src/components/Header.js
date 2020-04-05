@@ -11,16 +11,6 @@ export default class Header extends React.Component {
       <header id="masthead" className={'site-header ' + _.get(this.props, 'pageContext.site.siteMetadata.header.bg')}>
 
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-51577300-8"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){ window.dataLayer.push(arguments) }
-  gtag('js', new Date());
-
-  gtag('config', 'UA-51577300-8');
-</script>
-
-
         <JsonLd
     item={{
       "@context": "https://schema.org",
