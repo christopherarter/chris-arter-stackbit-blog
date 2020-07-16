@@ -2,11 +2,13 @@
 title: Home
 sections:
   - component: HeroBlock
-    content: >-
-      My name is Chris Arter, and I'm a 30-something-year-old Web Application Developer from sunny Florida 🌴. I (mostly) build with **Laravel**, **Vue** & **Serverless Node**.
-      <p><a href="https://arter-personal-public.s3.amazonaws.com/Chris+Arter+Resume+2020.pdf" class="button">Download Resume</a></p>
+    content: My name is Chris Arter, and I'm a self-taught Software Engineer from
+      sunny Florida 🌴. I (mostly) build with **Laravel**, **Vue** &
+      **Serverless Node**. <p><a
+      href="https://arter-personal-public.s3.amazonaws.com/Chris+Arter+Resume+2020.pdf"
+      class="button">Download Resume</a></p>
     section_id: hero
-    title: 'Hi, I''m Chris Arter.'
+    title: Hi, I'm Chris Arter.
     type: heroblock
   - actions:
       - label: View Blog
@@ -22,4 +24,3 @@ menus:
     weight: 1
 template: home
 ---
-
