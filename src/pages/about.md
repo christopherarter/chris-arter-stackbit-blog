@@ -19,4 +19,4 @@ Since then I've worked in start-ups, agencies, lead gen firms as well as aerospa
 
 #### Today
 
-Today I write software for PartnerComm to support HR communications for Fortune 100 companies. I work in Wordpress, NodeJS, VueJS, and Laravel. I'm engaged to a wonderful woman and father to two beautiful girls.
+Today I write software for PartnerComm to support HR communications for Fortune 100 companies. I build in Laravel, serverless NodeJS, .NET Core, Vue / Nuxt, and Wordpress.
