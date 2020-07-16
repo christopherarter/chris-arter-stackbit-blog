@@ -13,9 +13,9 @@ My name is Chris Arter, and I'm a self-taught Software Engineer from sunny Flori
 
 #### Origin Story
 
-During the recession (early 2010), I lived between my car and a friend's garage. I had no job, and plenty of time on my hands. I taught myself to code over stolen wi-fi on YouTube. That decision would ultimately change my life forever. A decade later, I earn a comfortable living and provide for my family.
+During the recession (early 2010), I lived between my car and a friend's garage. I had no job, and plenty of time on my hands. I taught myself to code over stolen wi-fi on YouTube. That decision would ultimately change my life forever. A decade later, I earn a comfortable living and provide for my family. You can listen to my entire story on the [Tech Jr Podcast](https://techjr.dev/episodes/2020/living-in-a-garage-and-learning-to-code-chris-arter-shares-his-amazing-story/).
 
-Since then I've worked in start-ups, agencies, lead gen firms as well as aerospace companies. I've created brands that have made Inc 500s Fastest Growing Companies in America (twice).
+Since then I've worked in start-ups, agencies, lead gen firms as well as aerospace companies. [I've created brands that have made Inc 500s Fastest Growing Companies in America (twice).](https://www.inc.com/profile/the-auxiliary-group)
 
 #### Today
 
