@@ -3,6 +3,7 @@ title: A Step by Step Guide to File Your LLC (in Florida)
 subtitle: "LLC filing in Florida demystified. "
 date: 2020-07-21T16:56:01.223Z
 thumb_img_path: /images/img_20200721_125849.jpg
+content_img_path: /images/img_20200721_125849.jpg
 template: post
 ---
 #A Step by Step Guide to File Your LLC (in Florida) 
