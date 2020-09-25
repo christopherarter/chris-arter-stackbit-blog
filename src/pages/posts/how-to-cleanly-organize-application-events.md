@@ -1,5 +1,5 @@
 ---
-title: How to cleanly organize application events.
+title: How to cleanly organize Laravel application events.
 subtitle: Bring some sanity to your event architecture.
 date: 2020-09-25T18:25:39.728Z
 template: post
